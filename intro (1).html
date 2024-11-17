@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Skin - Cuidado Natural de la Piel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --color-cream: #FFF5E6;
+            --color-orange: #FF9966;
+            --color-dark-orange: #FF7733;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: var(--color-cream);
+        }
+
+        header {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            <svg viewBox="0 0 400 400">
+ 
+        }
+
+        .logo svg {
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo-text {
+           <svg viewBox="0 0 400 400">
+  <!-- Círculo base -->
+  <circle cx="200" cy="200" r="180" fill="#E8927C"/>
+  <circle cx="200" cy="200" r="175" fill="none" stroke="#BFA084" stroke-width="2"/>
+  
+  <!-- Elementos del logo -->
+  <path d="M200 120 L220 160 L200 200 L180 160 Z" fill="white"/> <!-- Gota central -->
+  <path d="M160 170 L180 200 L160 230 L140 200 Z" fill="white"/> <!-- Hoja izquierda -->
+  <path d="M240 170 L260 200 L240 230 L220 200 Z" fill="white"/> <!-- Hoja derecha -->
+  
+  <!-- Estrellas -->
+  <circle cx="150" cy="150" r="4" fill="white"/>
+  <circle cx="250" cy="150" r="4" fill="white"/>
+  <circle cx="200" cy="140" r="4" fill="white"/>
+  <circle cx="270" cy="180" r="4" fill="white"/>
+  
+  <!-- Líneas onduladas -->
+  <path d="M280 200 Q290 205 300 200 Q310 195 320 200" stroke="white" fill="none" stroke-width="2"/>
+  <path d="M280 210 Q290 215 300 210 Q310 205 320 210" stroke="white" fill="none" stroke-width="2"/>
+</svg> 
+            font-size: 1.5rem;
+            color: var(--color-dark-orange);
+        }
+
+        nav {
+            background-color: var(--color-orange);
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--color-cream);
+        }
+
+        .section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            color: var(--color-dark-orange);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero {
+            background-color: var(--color-orange);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .hero h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .carbon-footprint {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--color-orange);
+            border-radius: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .social-icons a {
+            color: var(--color-dark-orange);
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--color-orange);
+        }
+
+        footer {
+            background-color: var(--color-orange);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .btn {
+            background-color: var(--color-orange);
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: var(--color-dark-orange);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#FF9966"/>
+                <text x="50" y="60" text-anchor="middle" fill="white" style="font-size: 40px;">PS</text>
+            </svg>
+            <span class="logo-text">Pure Skin</span>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#huella">Huella de Carbono</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Pure Skin</h1>
+        <p>Cuidado natural para una piel radiante</p>
+    </div>
+
+    <section id="inicio" class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>¡Hola! Soy Valeria Guazá, fundadora de Pure Skin. Mi pasión por el cuidado natural de la piel me llevó a crear una línea de productos que combina lo mejor de la naturaleza con prácticas sostenibles. Nuestro objetivo es proporcionar productos de alta calidad que cuiden tanto de tu piel como del medio ambiente.</p>
+    </section>
+
+    <section id="productos" class="section">
+        <h2>Nuestros Productos</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <h3>Crema Hidratante Natural</h3>
+                <p>Elaborada con ingredientes orgánicos para una hidratación profunda</p>
+            </div>
+            <div class="product-card">
+                <h3>Serum Facial</h3>
+                <p>Fórmula natural concentrada para una piel radiante</p>
+            </div>
+            <div class="product-card">
+                <h3>Crema Nutritiva</h3>
+                <p>Nutrición intensiva con ingredientes botánicos</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="huella" class="section">
+        <h2>Nuestra Huella de Carbono</h2>
+        <div class="carbon-footprint">
+            <p>En Pure Skin, nos comprometemos con la sostenibilidad ambiental. Nuestros productos son elaborados con ingredientes naturales y empaque biodegradable, minimizando nuestro impacto en el medio ambiente.</p>
+            <h3>Nuestras Acciones Sostenibles:</h3>
+            <ul>
+                <li>Ingredientes 100% naturales y orgánicos</li>
+                <li>Empaques biodegradables</li>
+                <li>Proceso de producción eco-amigable</li>
+                <li>Certificaciones ambientales</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portafolio" class="section">
+        <h2>Portafolio Profesional</h2>
+        <div class="carbon-footprint">
+            <p>Con más de 2 años de experiencia en la industria cosmética natural, nos especializamos en:</p>
+            <ul>
+                <li>Elaboración de productos naturales</li>
+                <li>Investigación de ingredientes activos botánicos</li>
+                <li>Desarrollo de productos sostenibles</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje o Sugerencia" rows="4" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: valeriaguaza71@gmail.com</p>
+                <p>Teléfono: 3225151194</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pure Skin. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
